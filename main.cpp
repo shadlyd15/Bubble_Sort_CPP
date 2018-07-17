@@ -15,6 +15,7 @@ void bubble_sort(uint8_t * array, size_t size){
 			swapped = true;
 		}
 	}
+	size = size -1;
 	if(swapped)
 		bubble_sort(array, size);
 }
